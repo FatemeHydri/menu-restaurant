@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Restaurant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <section>
+        <button class="mood" onclick="lightDark()"><i class="fa-regular fa-sun"></i>Dark-Light<i class="fa-regular fa-moon"></i></button>
+        <div class="container">
+            <h1 class="heading"><i class="fa-solid fa-angle-left"></i> Menu Restaurant <i class="fa-solid fa-angle-right"></i></h1>
+            <p class="caption">We love light · Eat, play, live anyway. We cook the best for you and serve it with honor and respect.</p>
+            <div class="menu">
+                <ul class="buttons">
+                    <li><button class="btn" onclick="allFood()">All</button></li>
+                    <li><button class="btn" onclick="mainFood()">Main Food</button></li>
+                    <li><button class="btn" onclick="appetizer()">Appetizer</button></li>
+                    <li><button class="btn" onclick="dessert()">Dessert</button></li>
+                    <li><button class="btn" onclick="hotDrink()">Hot Drink</button></li>
+                    <li><button class="btn" onclick="coldDrink()">Cold Drink</button></li>
+                </ul>
+            </div>
+            <div class="items"></div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
